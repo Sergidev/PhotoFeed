@@ -1,0 +1,61 @@
+article{
+	border: 1px solid gainsboro;
+	background: white;
+	margin-bottom: 60px;
+	border-radius: 3px;
+}
+
+.headerPhotos{
+	border-bottom: 1px;
+	border-color: gainsboro;
+	background: white;
+	overflow: hidden;
+
+	margin-bottom: 60px;
+}
+
+.headerPhotos > div{
+	width: 600px;
+	margin: auto;
+}
+
+body{
+	font-family: Courier;
+    font-weight: 100;
+    background: gainsboro;
+    margin:0;
+    padding: 0;
+}
+
+.container{
+	width: 600px;
+	margin:auto;
+}
+
+article > header{
+	padding: 0px 14px;
+}
+
+.titlePhoto > div {
+	width: 50%;
+	float:left;
+}
+
+img{
+	max-width: 600px;
+}
+
+.descriptionPhoto{
+	padding:0px 20px;
+}
+
+
+.image{
+	border-bottom: 1px solid gainsboro;
+    border-top: 1px solid gainsboro;
+}
+
+.datePhoto{
+	text-align: right;
+	color: #a5a7aa;
+}
